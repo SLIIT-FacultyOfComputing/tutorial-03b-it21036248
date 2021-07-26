@@ -21,6 +21,8 @@ void print(int len, int wth) {
 // Implement the Input Function here
 void input(int &length, int &width)
 {
-  cin >> &length;
-  cin >> &width;
+  cout << "Input length : ";
+  cin >> length;
+  cout << "Input width : ";
+  cin >> width;
 }
